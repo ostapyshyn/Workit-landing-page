@@ -21,6 +21,7 @@ function App() {
           </p>
         </div>
         <div>
+          
           <h2 className="action_title">Always affordable</h2>
           <p className={'about'}>
             Always affordable pricing that scales with your business. Get top-quality product data
