@@ -1,3 +1,8 @@
+import workit from './assets/workit.svg'
+import facebook from './assets/Facebook.svg'
+import user from './assets/user.png'
+import twitter from './assets/Twitter.svg'
+import instagram from './assets/Instagram.svg'
 import './App.css'
 
 function App() {
@@ -21,7 +26,6 @@ function App() {
           </p>
         </div>
         <div>
-          
           <h2 className="action_title">Always affordable</h2>
           <p className={'about'}>
             Always affordable pricing that scales with your business. Get top-quality product data
@@ -29,14 +33,31 @@ function App() {
           </p>
         </div>
       </div>
+      <div className="review">
+        <div className="review_image">
+          <img src={user} alt="user" />
+        </div>
+        <div className="review_text">
+          <h3 className="review_title">Be the first to test</h3>
+          <p className="review_description">
+            Hi, I'm Louis Graham, the founder of the company. Book a demo call with me to become a
+            beta tester for our app and kickstart your company. Apply for access below and I’ll be
+            in touch to schedule a call.
+          </p>
+          <button className="btn_apply">Apply for access</button>
+        </div>
+      </div>
 
-      <h3>Be the first to test</h3>
-      <p>
-        Hi, I'm Louis Graham, the founder of the company. Book a demo call with me to become a beta
-        tester for our app and kickstart your company. Apply for access below and I’ll be in touch
-        to schedule a call.
-      </p>
-      <button>Apply for access</button>
+      <footer className="footer">
+        <div className="logo">
+          <img src={workit} alt="logo" />
+        </div>
+        <div className="social_icons">
+          <img src={facebook} alt="facebook" />
+          <img src={twitter} alt="twitter" />
+          <img src={instagram} alt="instagram" />
+        </div>
+      </footer>
     </main>
   )
 }

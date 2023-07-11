@@ -87,3 +87,71 @@ button:focus-visible {
   color: var(--dark-purple, #24053e);
   text-align: center;
 }
+
+.footer {
+  margin-top: 121.78px;
+}
+
+.social_icons {
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+}
+
+.logo {
+  margin-bottom: 50px;
+}
+
+.review {
+  display: flex;
+  color: var(--white, #fff);
+  justify-content: end;
+  position: relative;
+  padding-top: 174px;
+}
+
+.review_image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.review_text {
+  max-width: 730px;
+  background: var(--dark-purple, #24053e);
+  padding: 64px;
+  max-height: 413px;
+}
+
+.review_title {
+  font-family: Fraunces 144pt;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+}
+
+.review_description {
+  color: var(--white, #fff);
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 32px;
+}
+
+.btn_apply {
+  display: block;
+  background: var(--eucaplyptus, #44ffa1);
+  margin: 0 auto;
+  color: var(--dark-purple, #24053e);
+  text-align: center;
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.18px;
+}
