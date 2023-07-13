@@ -2,14 +2,23 @@ import workit from './assets/workit.svg'
 import facebook from './assets/Facebook.svg'
 import user from './assets/user.png'
 import twitter from './assets/Twitter.svg'
+import workit_white from './assets/workit_white.svg'
 import instagram from './assets/Instagram.svg'
 import './App.css'
 
 function App() {
   return (
     <main>
-      <p>Apply for access</p>
-      <h1>Data tailored to your needs.</h1>
+      <header>
+        <div className="top_header">
+          <img src={workit_white} alt="logo" />
+          <p className="header_logo">Apply for access</p>
+        </div>
+
+        <h1>Data tailored to your needs.</h1>
+        <button className="btn_apply">Learn more</button>
+      </header>
+
       <div className={'actions'}>
         <div className={'action_block'}>
           <h2 className="action_title">Actionable insights</h2>

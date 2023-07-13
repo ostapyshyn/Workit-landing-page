@@ -36,8 +36,36 @@ body {
 }
 
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  color: var(--white, #fff);
+  text-align: center;
+  font-family: Fraunces;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 80px;
+  max-width: 635px;
+  margin: 0 auto;
+  margin-bottom: 37px;
+}
+
+.top_header {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 165px;
+}
+
+.header_logo {
+  color: var(--white, #fff);
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.18px;
+  border-bottom-style: solid;
+  border-bottom-color: #44ffa1;
+  border-width: 3px;
+  width: fit-content;
 }
 
 button {
@@ -154,4 +182,13 @@ button:focus-visible {
   font-weight: 700;
   line-height: 32px;
   letter-spacing: -0.18px;
+  border-radius: 0;
+}
+
+header {
+  padding-top: 56px;
+  background-image: url(./assets/Rectangle.svg);
+  min-height: 730px;
+  text-align: center;
+  background-repeat: no-repeat;
 }
