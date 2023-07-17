@@ -187,7 +187,9 @@ button:focus-visible {
 
 header {
   padding-top: 56px;
-  background-image: url(./assets/Rectangle.svg);
+  background-color: #24053e;
+  clip-path: ellipse(122% 100% at top);
+  z-index: -1;
   min-height: 730px;
   text-align: center;
   background-repeat: no-repeat;
