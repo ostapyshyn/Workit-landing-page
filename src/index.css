@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Fraunces_144pt'; /*Can be any text*/
+  src: local('Fraunces_144pt'),
+    url('./assets/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf') format('truetype');
+}
+
 :root {
   font-family: 'Manrope', sans-serif;
   line-height: 1.5;
@@ -10,12 +16,6 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-}
-
-@font-face {
-  font-family: 'Frau'; /*Can be any text*/
-  src: local('AirbnbCerealLight'),
-    url('./assets/fonts/fraunces/Fraunces-VariableFont_wght.ttf') format('truetype');
 }
 
 a {
@@ -38,7 +38,6 @@ body {
 h1 {
   color: var(--white, #fff);
   text-align: center;
-  font-family: Fraunces;
   font-size: 80px;
   font-style: normal;
   font-weight: 600;
@@ -46,6 +45,7 @@ h1 {
   max-width: 635px;
   margin: 0 auto;
   margin-bottom: 37px;
+  font-family: 'Fraunces_144pt';
 }
 
 .top_header {
